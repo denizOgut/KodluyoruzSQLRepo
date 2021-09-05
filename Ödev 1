@@ -1,0 +1,6 @@
+--SELECT title , description FROM film;
+--SELECT * FROM film WHERE film.length > 60 and film.length <75; 
+--SELECT * FROM film WHERE film.rental_rate = 0.99 AND 
+-- (film.replacement_cost = 12.99 OR film.replacement_cost = 28.99);
+--SELECT last_name FROM customer WHERE first_name = 'Mary';
+--SELECT * FROM film WHERE NOT film.length > 50 AND  NOT (film.rental_rate = 2.99 OR film.rental_rate = 4.99); 
